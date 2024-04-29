@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 
 import { Link } from "react-router-dom";
-import UserContext from "./UserContext";
+import UserContext from "./UserContext.js";
 import BreedSearchForm from "./BreedSearchForm.jsx";
 import NumberSlider from './NumberSlider.jsx';
 import DogBreedList from "./BreedList.jsx";

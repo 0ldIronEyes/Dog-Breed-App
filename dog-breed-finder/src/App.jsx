@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import {Router, Routes, Route, BrowserRouter, Navigate } from "react-router-dom";
-import UserContext from "./UserContext";
+import UserContext from "./UserContext.js";
 import './App.css';
 import { jwtDecode } from "jwt-decode";
 import DogBreedList from './BreedList.jsx';
